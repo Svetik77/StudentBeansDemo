@@ -12,8 +12,10 @@
 
 
 
-<a href="http://stackoverflow.com/questions/3231750/org-apache-jasper-
-jasperexception-cannot-find-any-information-on-property-snam">link to forum here</a>
+	<a
+		href="http://stackoverflow.com/questions/3231750/org-apache-jasper-
+jasperexception-cannot-find-any-information-on-property-snam">link
+		to forum here</a>
 
 	<jsp:useBean id="students" class="com.beans.Students">
 
@@ -22,6 +24,7 @@ jasperexception-cannot-find-any-information-on-property-snam">link to forum here
 		<jsp:setProperty name="students" property="age" value="10" />
 	</jsp:useBean>
 
+	<h2>Student</h2>
 
 	<p>
 		Student First Name:
@@ -40,8 +43,7 @@ jasperexception-cannot-find-any-information-on-property-snam">link to forum here
 
 	---------------------------------------------
 	<h1 style="color: orange;">
-		 Name: ${students.firstName}<br>
-		 Age: ${students.age}<br> 
+		Name: ${students.firstName}<br> Age: ${students.age}<br>
 	</h1>
 
 </body>
